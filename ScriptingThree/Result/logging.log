@@ -1,0 +1,95 @@
+2020-11-19 22:58:50 INFO  :43 - The 'Chrome' browser has launched successful
+2020-11-19 22:58:53 INFO  :43 - The actual 'actiTIME - Login' & expected 'actiTIME - Login' are matched
+2020-11-19 22:58:53 INFO  :43 - The data 'admin' was entered in the element 'By.id: username' successful
+2020-11-19 22:58:53 INFO  :43 - The data 'manager' was entered in the element 'By.name: pwd' successful
+2020-11-19 22:58:53 INFO  :43 - The element 'By.id: loginButton' was clicked successful
+2020-11-19 22:58:58 INFO  :43 - The element 'By.id: gettingStartedShortcutsMenuCloseId' was clicked successful
+2020-11-19 22:59:02 INFO  :43 - Login to actiTime was successful
+2020-11-19 22:59:02 INFO  :43 - The element 'By.xpath: //div[text()='USERS']' was clicked successful
+2020-11-19 22:59:04 INFO  :43 - The element 'By.xpath: //div[text()='Add User']' was clicked successful
+2020-11-19 22:59:08 INFO  :43 - The data 'sample' was entered in the element 'By.name: firstName' successful
+2020-11-19 22:59:08 INFO  :43 - The data 'user1' was entered in the element 'By.name: lastName' successful
+2020-11-19 22:59:09 INFO  :43 - The data 'sample.user1@sg.com' was entered in the element 'By.name: email' successful
+2020-11-19 22:59:09 INFO  :43 - The data 'sampleuser1' was entered in the element 'By.name: username' successful
+2020-11-19 22:59:09 INFO  :43 - The data 'Mercury2' was entered in the element 'By.name: password' successful
+2020-11-19 22:59:09 INFO  :43 - The data 'Mercury2' was entered in the element 'By.name: passwordCopy' successful
+2020-11-19 22:59:09 INFO  :43 - The element 'By.xpath: //span[text()='Create User']' was clicked successful
+2020-11-19 22:59:11 INFO  :43 - The element 'By.xpath: //div[@class='name']/span[text()='user1, sample']' present in the DOM
+2020-11-19 22:59:11 INFO  :43 - The new user has created successful
+2020-11-19 22:59:16 INFO  :43 - The 'Chrome' browser has launched successful
+2020-11-19 22:59:19 INFO  :43 - The actual 'actiTIME - Login' & expected 'actiTIME - Login' are matched
+2020-11-19 22:59:19 INFO  :43 - The data 'sampleuser1' was entered in the element 'By.id: username' successful
+2020-11-19 22:59:19 INFO  :43 - The data 'Mercury2' was entered in the element 'By.name: pwd' successful
+2020-11-19 22:59:19 INFO  :43 - The element 'By.id: loginButton' was clicked successful
+2020-11-19 22:59:21 INFO  :43 - Login to actiTime was successful
+2020-11-19 22:59:24 INFO  :43 - The element 'By.xpath: //div[@class='name']/span[text()='user1, sample']' was clicked successful
+2020-11-19 22:59:26 INFO  :43 - The element 'By.xpath: //button[contains(text(), 'Delete User')]' was clicked successful
+2020-11-19 22:59:34 INFO  :43 - The element 'By.xpath: //div[@class='name']/span[text()='user1, sample']' doesnot exist in the DOM
+2020-11-19 22:59:34 INFO  :43 - The user has deleted successful
+2020-11-19 22:59:34 INFO  :43 - The element 'By.xpath: //a[@id='logoutLink']' was clicked successful
+2020-11-19 22:59:36 INFO  :43 - The element 'By.xpath: //img[contains(@src, '/timer.png')]' present in the DOM
+2020-11-19 22:59:36 INFO  :43 - Logout from actiTime was successful
+2020-11-19 22:59:36 INFO  :43 - The script TS_LoginWithNewUserAndDeleteUser() was passed
+2021-03-12 07:39:39 FATAL :52 - Exception in the method launchBrowser(). session not created: This version of ChromeDriver only supports Chrome version 86
+Current browser version is 89.0.4389.82 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'GEETASH', ip: '192.168.217.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0088C013+3194899]
+	Ordinal0 [0x00776021+2056225]
+	Ordinal0 [0x0060F608+587272]
+	Ordinal0 [0x00591BF3+72691]
+	Ordinal0 [0x0058E229+57897]
+	Ordinal0 [0x0058C64A+50762]
+	Ordinal0 [0x005B1EE9+204521]
+	Ordinal0 [0x005B1D0D+204045]
+	Ordinal0 [0x005AFC1B+195611]
+	Ordinal0 [0x00593B7F+80767]
+	Ordinal0 [0x00594B4E+84814]
+	Ordinal0 [0x00594AD9+84697]
+	Ordinal0 [0x0078CE64+2149988]
+	GetHandleVerifier [0x009FBE95+1400773]
+	GetHandleVerifier [0x009FBB61+1399953]
+	GetHandleVerifier [0x00A031FA+1430314]
+	GetHandleVerifier [0x009FC69F+1402831]
+	Ordinal0 [0x00783D61+2112865]
+	Ordinal0 [0x0078E5CB+2155979]
+	Ordinal0 [0x0078E6F5+2156277]
+	Ordinal0 [0x0079F26E+2224750]
+	BaseThreadInitThunk [0x75E66359+25]
+	RtlGetAppContainerNamedObjectPath [0x773C8944+228]
+	RtlGetAppContainerNamedObjectPath [0x773C8914+180]
+
+2021-03-12 07:45:26 INFO  :43 - The 'Chrome' browser has launched successful
+2021-03-12 07:45:29 INFO  :43 - The actual 'actiTIME - Login' & expected 'actiTIME - Login' are matched
+2021-03-12 07:45:29 INFO  :43 - The data 'admin' was entered in the element 'By.id: username' successful
+2021-03-12 07:45:29 INFO  :43 - The data 'manager' was entered in the element 'By.name: pwd' successful
+2021-03-12 07:45:29 INFO  :43 - The element 'By.id: loginButton' was clicked successful
+2021-03-12 07:45:34 INFO  :43 - The element 'By.id: gettingStartedShortcutsMenuCloseId' was clicked successful
+2021-03-12 07:45:38 INFO  :43 - Login to actiTime was successful
+2021-03-12 07:45:39 INFO  :43 - The element 'By.xpath: //div[text()='USERS']' was clicked successful
+2021-03-12 07:45:41 INFO  :43 - The element 'By.xpath: //div[text()='Add User']' was clicked successful
+2021-03-12 07:45:45 INFO  :43 - The data 'sample' was entered in the element 'By.name: firstName' successful
+2021-03-12 07:45:45 INFO  :43 - The data 'user1' was entered in the element 'By.name: lastName' successful
+2021-03-12 07:45:45 INFO  :43 - The data 'sample.user1@sg.com' was entered in the element 'By.name: email' successful
+2021-03-12 07:45:45 INFO  :43 - The data 'sampleuser1' was entered in the element 'By.name: username' successful
+2021-03-12 07:45:45 INFO  :43 - The data 'Mercury2' was entered in the element 'By.name: password' successful
+2021-03-12 07:45:45 INFO  :43 - The data 'Mercury2' was entered in the element 'By.name: passwordCopy' successful
+2021-03-12 07:45:45 INFO  :43 - The element 'By.xpath: //span[text()='Create User']' was clicked successful
+2021-03-12 07:45:47 INFO  :43 - The element 'By.xpath: //div[@class='name']/span[text()='user1, sample']' present in the DOM
+2021-03-12 07:45:47 INFO  :43 - The new user has created successful
+2021-03-12 07:45:49 INFO  :43 - The 'Chrome' browser has launched successful
+2021-03-12 07:45:52 INFO  :43 - The actual 'actiTIME - Login' & expected 'actiTIME - Login' are matched
+2021-03-12 07:45:52 INFO  :43 - The data 'sampleuser1' was entered in the element 'By.id: username' successful
+2021-03-12 07:45:52 INFO  :43 - The data 'Mercury2' was entered in the element 'By.name: pwd' successful
+2021-03-12 07:45:52 INFO  :43 - The element 'By.id: loginButton' was clicked successful
+2021-03-12 07:45:56 INFO  :43 - Login to actiTime was successful
+2021-03-12 07:45:58 INFO  :43 - The element 'By.xpath: //div[@class='name']/span[text()='user1, sample']' was clicked successful
+2021-03-12 07:46:00 INFO  :43 - The element 'By.xpath: //button[contains(text(), 'Delete User')]' was clicked successful
+2021-03-12 07:46:08 INFO  :43 - The element 'By.xpath: //div[@class='name']/span[text()='user1, sample']' doesnot exist in the DOM
+2021-03-12 07:46:08 INFO  :43 - The user has deleted successful
+2021-03-12 07:46:09 INFO  :43 - The element 'By.xpath: //a[@id='logoutLink']' was clicked successful
+2021-03-12 07:46:11 INFO  :43 - The element 'By.xpath: //img[contains(@src, '/timer.png')]' present in the DOM
+2021-03-12 07:46:11 INFO  :43 - Logout from actiTime was successful
+2021-03-12 07:46:11 INFO  :43 - The script TS_LoginWithNewUserAndDeleteUser() was passed
